@@ -1,8 +1,13 @@
 import React from 'react'
+import HistoryTable from '../Components/HistoryTable'
 
 const History = () => {
   return (
-    <div>History</div>
+    <div className='container'>
+      <div>
+       < HistoryTable/>
+      </div>
+    </div>
   )
 }
 
